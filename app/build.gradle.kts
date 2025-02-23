@@ -67,4 +67,8 @@ dependencies {
     implementation("io.getstream:stream-video-android-ui-compose:1.3.1")
     implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
     implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth:22.3.1") //
+
+    implementation("com.google.firebase:firebase-messaging-ktx:23.3.1")
+    implementation ("com.google.firebase:firebase-firestore:24.9.1")// Latest version
 }
