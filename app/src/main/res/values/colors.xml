@@ -1,0 +1,8 @@
+<resources>
+    <color name="primaryColor">#3F51B5</color> <!-- Deep Blue -->
+    <color name="secondaryColor">#D1C4E9</color> <!-- Light Purple -->
+    <color name="backgroundColor">#F5F5F5</color> <!-- Soft Gray -->
+    <color name="textPrimary">#212121</color>
+    <color name="brownColor">#8B4513</color> <!-- SaddleBrown -->
+
+</resources>

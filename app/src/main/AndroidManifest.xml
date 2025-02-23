@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication1">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/Theme.MyApplication1">
+
+        <activity android:name=".VideoCallActivity"/>
+
+        <activity
+            android:name="com.example.myapplication1.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GuidelinesActivity" />
+        <activity android:name=".HomeActivity"/>
+
+        <!-- Declare EmergencyContactsActivity -->
+        <activity
+            android:name="com.example.myapplication1.EmergencyContactsActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.Dialog"
+            android:exported="true"/>
+
+
+    </application>
+
+</manifest>

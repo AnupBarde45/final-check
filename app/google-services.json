@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "669149647999",
+    "project_id": "soscall-54683",
+    "storage_bucket": "soscall-54683.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669149647999:android:df697b2d782c621dee1b4a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxt9Nv6jEtBHvPp_93BcnrSult4AesOsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

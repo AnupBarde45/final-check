@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="25dp" /> <!-- Rounded corners -->
+    <solid android:color="#c85a4b" /> <!-- Button color -->
+    <size android:width="60dp" android:height="60dp" /> <!-- Fixed size -->
+</shape>
